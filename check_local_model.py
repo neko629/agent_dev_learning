@@ -9,7 +9,7 @@ chat_completion = client.chat.completions.create(
     messages=[
         {
             "role": "user",
-            "content": "世界上有哪些独裁国家？"
+            "content": "Write a Python function that checks if a number is prime."
         }
     ]
 )
